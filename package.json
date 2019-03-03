@@ -1,0 +1,15 @@
+{
+  "name": "reactbookgoogle",
+  "version": "1.0.0",
+  "description": "MERN app for searching and saving books of interest",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && nodemon server.js\" \"cd client && npm start\""
+  },
+  "author": "Christian Cabrera",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5"
+  }
+}
